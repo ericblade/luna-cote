@@ -20,10 +20,8 @@ const bus = require('./index');
 const Service = require('./service');
 const service = new Service('test-service');
 service.register('/test', ({ payload, respond }) => { console.warn('* test 1 received', payload); respond({ returnValue: true }); });
-service.call(
-    'luna://test-service/test',
-    { test: true },
-    ({ payload }) => {
-        console.warn('* return payload=', payload);
-    }
-);
+service.register('/sub', ({ payload, respond }) => {
+    // console.warn('* sub received', payload);
+    respond({ subscribed: true });
+    setInterval(() => respond({ continue: true }), 3000);
+});
