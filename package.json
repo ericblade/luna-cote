@@ -1,6 +1,6 @@
 {
   "name": "luna-cote",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simulation of webOS luna-service using cote",
   "main": "index.js",
   "scripts": {

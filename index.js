@@ -5,10 +5,10 @@ const { DatabaseStub } = LunaService;
 
 class CoteBus {
     constructor() {
-        process.nextTick(() => {
-            this.db = new DatabaseStub('com.webos.service.db', Service);
-            this.tempdb = new DatabaseStub('com.webos.service.tempdb', Service);
-        });
+        // process.nextTick(() => {
+        //     this.db = new DatabaseStub('com.webos.service.db', Service);
+        //     this.tempdb = new DatabaseStub('com.webos.service.tempdb', Service);
+        // });
     }
     //     this.busResponder = new cote.Responder({ name: 'luna-bus', key: 'service' });
     //     // this.requestResponder = new cote.Responder({ name: 'luna-bus', key: 'request' });
