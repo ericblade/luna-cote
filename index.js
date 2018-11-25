@@ -44,7 +44,7 @@ const luna = new LunaService('bus');
 
 setInterval(() => { console.warn('*'); }, 60000);
 
-module.exports = CoteBus;
+module.exports = Service;
 
 // const busResponder = new cote.Responder({ name: 'Luna Bus Request' });
 
