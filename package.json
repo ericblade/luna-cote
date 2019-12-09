@@ -9,7 +9,7 @@
   "author": "Eric Blade",
   "license": "MIT",
   "dependencies": {
-    "cote": "^0.18.0",
+    "cote": "^0.21.1",
     "unique-filename": "^1.1.1",
     "webos-service-stub": "github:ericblade/webos-service-stub#2.0.2"
   }
