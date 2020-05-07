@@ -4,13 +4,17 @@
   "description": "Simulation of webOS luna-service using cote",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Eric Blade",
   "license": "MIT",
   "dependencies": {
     "cote": "^1.0.0",
     "unique-filename": "^1.1.1",
-    "webos-service-stub": "github:ericblade/webos-service-stub#2.0.2"
-  }
+    "webos-service-stub": "github:ericblade/webos-service-stub#2.0.2",
+    "snyk": "^1.319.1"
+  },
+  "snyk": true
 }
