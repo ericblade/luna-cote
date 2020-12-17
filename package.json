@@ -11,7 +11,7 @@
   "author": "Eric Blade",
   "license": "MIT",
   "dependencies": {
-    "cote": "^1.0.0",
+    "cote": "^1.0.2",
     "unique-filename": "^1.1.1",
     "webos-service-stub": "github:ericblade/webos-service-stub#2.0.2",
     "snyk": "^1.431.1"
